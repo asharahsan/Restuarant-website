@@ -1,0 +1,306 @@
+.com-name {
+  font-size: 3rem;
+  font-weight: 600;
+  color: rgb(200, 151, 151);
+  text-decoration: none;
+}
+
+/* Design  */
+
+.heading {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: 800;
+  color: rgb(173, 123, 58);
+  /* border: 2px solid rgb(192, 27, 27); */
+  margin-bottom: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  text-align: justify;
+}
+
+section {
+  padding: 5% 10%;
+}
+
+/* font-family: 'Lilita One', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Ubuntu', sans-serif; */
+
+h1 {
+  /* position: sticky;
+  top: 5rem;
+  left: 100rem; */
+  font-family: "Parisienne", cursive;
+}
+
+p {
+  font-size: large;
+}
+
+/* naviagtion bar */
+
+#logo {
+  width: 200px;
+  /* height: 100px; */
+  margin: 0.5rem 0;
+  display: block;
+}
+
+#logo img {
+  width: 80%;
+  height: 80%;
+  /* padding: 10%; */
+  /* border: 2px solid #000; */
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--navbar-height);
+  /* border: 2px solid #000; */
+  /* margin: 4px; */
+  /* justify-content: space-between; */
+}
+
+#navbar ul {
+  width: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid #000; */
+}
+
+#navbar li {
+  font-size: 1rem;
+ 
+}
+
+#navbar li a {
+  padding: 0 0.43rem;
+}
+
+#navbar::before {
+
+  height: 8rem;
+  
+
+  /* justify-content: space-between; */
+}
+
+
+
+/* Home page */
+
+#home {
+  height: auto;
+  grid-template-rows: 4fr 2fr;
+
+}
+
+#home-left {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height:100%;  
+
+}
+
+
+#home-right {
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* height: 100%; */
+}
+
+
+/* About page */
+
+#about {
+
+  flex-direction: column;
+  
+}
+
+#about-left {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+#about-right {
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.roller {
+  width: 200px;
+}
+/* 
+.thumb-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  overflow: hidden;
+  width: auto;
+}
+
+.thumb img {
+  width: 100%;
+
+  margin: 5px;
+  padding: 5px;
+
+  border-radius: 15px;
+} */
+
+/* Services page */
+/* #menu {
+  background-color: blanchedalmond;
+  height: auto;
+}
+
+.roller {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 1rem;
+
+  justify-content: center;
+  height: auto;
+}
+.roller .card {
+  border: 2px solid black;
+  width: 100%;
+  height: 400px;
+
+  overflow: hidden;
+}
+.roller .card1 {
+  background: url(../images/about-thumb-01.jpg);
+  background-size: cover;
+}
+.roller .card-description {
+  height: 200px;
+  bottom: 50px;
+  position: relative;
+  border: 2px solid black;
+}
+.roller .card:hover .card-description {
+  bottom: 100px;
+
+  z-index: 2;
+}
+.roller .card2 {
+  background: url(../images/about-thumb-02.jpg);
+  background-size: cover;
+}
+.roller .card3 {
+  background: url(../images/about-thumb-03.jpg);
+  background-size: cover;
+}
+
+.roller .price {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 60px;
+  background-color: rgb(143, 81, 146);
+  color: rgb(134, 47, 47);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  z-index: 5;
+} */
+
+/* Chef */
+/* 
+#chefs {
+  height: auto;
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+}
+
+#chefs .chef-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.chef-top {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  align-items: center;
+} */
+
+.chef-list {
+ 
+  flex-direction: column;
+
+}
+
+
+.chef-list img {
+  height: auto;
+
+}
+.social {
+ 
+  height: 330px;
+  
+}
+
+
+.contact-left {
+  width: 80%;
+}
+
+.contact-right {
+  width: 90%;
+}
+
+
+
+
+
+.contact-right h1 {
+  font-size: 2.5rem;
+}
+
+
+
+
+
+.footer-content {
+
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.footer-content .icon {
+ margin: 3px;
+}
+
+.footer-content .left img {
+  width: 45px;
+  padding: 10px;
+}
+.footer-content .mid img{
+  height: 30px;
+  width: auto;
+}
+
+.footer-content .right p {
+    margin-right: 0%;
+  font-size:0.8rem;
+}
